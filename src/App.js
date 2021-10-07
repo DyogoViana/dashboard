@@ -1,21 +1,23 @@
 // sem react;
+import Wrapper from './containers/Wrapper';
 // import Header from './components/Header';
-import Nav from './containers/Nav';
+
 import Main from './containers/Main';
-import Navbar from './components/Navbar';
+import Nav from './containers/Nav';
+import Section from './containers/Section';
+import Brand from './components/Brand';
 
 function App() {
 	return (
 		<>
-			{/* <Header>
-				<h2>teste Header</h2>
-			</Header> */}
-			<Nav>
-				<Navbar />
-			</Nav>
-			<Main>
-				<h1>teste main</h1>
-			</Main>
+			<Wrapper>
+				<Nav />
+				<Main>
+					<Section>
+						<h1>teste section</h1>
+					</Section>
+				</Main>
+			</Wrapper>
 		</>
 	)
 }

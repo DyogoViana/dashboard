@@ -1,13 +1,10 @@
 import { createGlobalStyle } from 'styled-components';
 
 const Base = createGlobalStyle`
-	body,
-	header,
-	main {
+	body {
+		display: flex;
 		font-family: 'Quicksand', sans-serif;
-		font-size: 1rem;
-		text-align: left;
-		overflow: hidden; /* Hide scrollbars */
+		overflow: hidden;
 		background-color: #ecf0f1;
 	}
 `;
