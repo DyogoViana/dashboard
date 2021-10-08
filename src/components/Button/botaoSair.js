@@ -1,10 +1,22 @@
 import styled from "styled-components";
 
-const botaoSair = styled.button`
+const BotaoSair = styled.button`
 	display: flex;
-	flex-direction: column;
+	flex-direction: column-reverse;
 	align-items: center;
-	justify-content: center;
+	/* justify-content: space-evenly; */
+
+	border: none;
+
+	color: #555;
+	padding: .5em;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1rem;
+	width: 15vw;
+	background-color: #ecf0f1;
+
 `;
 
-export default botaoSair;
+export default BotaoSair;

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const Brand = styled.div`
-	width: auto;
-	height: 10vh;
+	width: 15vw;
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;

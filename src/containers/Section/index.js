@@ -10,9 +10,9 @@ const Section = styled.section`
 	align-items: center;
 	align-content: flex-start;
 	justify-content: center;
-
 	border-radius: 1em;
 
+	box-shadow: 0 0 1em #bdc3c7;
 	background: #fff;
 `;
 

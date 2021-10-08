@@ -6,13 +6,14 @@ const Menu = styled.nav`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: start;
+	justify-content: space-evenly;
 
+	box-shadow: .1em 2em 2em #bdc3c7;
 	background: #fff;
 
 	ul {
 		width: 100%;
-		margin: 0;
+		margin: 6em 0;
 		padding: 0;
 		list-style-type: none;
 	}
@@ -20,7 +21,7 @@ const Menu = styled.nav`
 	li a {
 		display: block;
 		color: #555;
-		padding: 8px 16px;
+		padding: .7rem 2rem;
 		text-decoration: none;
 	}
 
